@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos Técnicos</title>
+
+  <!-- css do bootstrip -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- JavaScript do bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--Menu-->
+  <header class="p-3  bg-dark text-dark-emphasis">
+    <nav class="navbar navbar-expand-lg p-3 mb-1 bg-secondary text-white">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Logo-->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"><img src="imagem/tecnoogia-removebg-preview.png" alt=""></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#quemsomos">Quem somos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#cursos">Cursos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#profissionais">Profissionais</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 bg-dark-subtle" type="search" placeholder="" aria-label="Search"
+              style="border-radius: 2px; border: 1px solid black;">
+            <button type="button" class="btn btn-light bg-dark-subtle"
+              style="border: 1px solid black; border-radius: 2px;">Pesquisar</button>
+
+          </form>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- slide-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active " data-bs-interval="2000">
+
+          <img
+            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <section class="tudo bg-secondary">
+    <!-- Texto -->
+    <figure class="text-center fw-light fst-italic p-4" id="cursos">
+      <blockquote class="blockquote">
+        <p>"A tecnologia move o mundo"</p>
+        <p font-size: 5px;>-Technology Profissional</p>
+      </blockquote>
+    </figure>
+
+    <!--cards dos cursos-->
+    <div class="container" id="cursos">
+      <div class="row ">
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card mb-3">
+            <img
+              src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web segurança</h5>
+              <p class="card-text">R$200,00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card mb-3">
+            <img
+              src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?q=80&w=2157&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Robótica</h5>
+              <p class="card-text">R$190,00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card mb-3">
+            <img
+              src="https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Programação</h5>
+              <p class="card-text">R$150,00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card mb-3">
+            <img
+              src="https://images.unsplash.com/photo-1672165407867-fa0ec7afa896?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hardware</h5>
+              <p class="card-text">R$140,00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card mb-3">
+            <img
+              src="https://images.unsplash.com/photo-1531668383211-64743e924c66?q=80&w=1956&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Redes</h5>
+              <p class="card-text">R$200,00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1553895501-af9e282e7fc1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sites</h5>
+              <p class="card-text">R$180,00</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- texto -->
+        <section class="sobre" id="quemsomos">
+          <h1 class="text-center">Quem somos?</h1>
+          <p class="text-center mx-auto">Somos uma Empresa de cursos tecnológicos onde visamos
+            ensinar e instruir os alunos ao aprendizado nas areas de informática.A technology profissional é uma empresa
+            renomada no setor de educação em informática, dedicada a capacitar indivíduos com habilidades digitais
+            essenciais para o sucesso profissional. Nossa vasta gama de cursos abrange desde fundamentos básicos até
+            especializações avançadas em programação, design de sites e administração de redes. Com instrutores
+            experientes e materiais de alta qualidade, oferecemos uma experiência de aprendizado envolvente e prática.
+            Na technology profissional, nosso objetivo é fornecer um caminho claro e acessível para que nossos alunos
+            alcancem seu pleno potencial no mundo da tecnologia.
+            <img
+              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="">
+          </p>
+        </section>
+
+        <section class="profissionais text-center" id="profissionais">
+          <h1 class="mb-3 mt-5">Profissionais</h1>
+          <p class="mx-auto mb-5"> André Marques Carlos Daniel Ana Beatriz Marcelo Tomita </p>
+
+          <img class="mx-auto mb-5"
+            src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="">
+
+
+
+        </section>
+
+        <section class="Contato" id="contato">
+          <h1 class="text-center mt-5 mb-5">Contato</h1>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117240.51304555354!2d-51.23653345159409!3d-23.324246219902122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435d5b264775%3A0xfd3a2c2dc9f2232f!2sSenac%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1712862762361!5m2!1spt-BR!2sbr"
+            width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <p class="text-center mx-auto  mt-4"> Telefone: 98485-6233 </p>
+          <p class="text-center mx-auto  mt-1 mb-5"> Email: technology.profissional@gmail.com</p>
+        </section>
+  </section>
+
+  </div>
+  </div>
+  </div>
+  </section>
+
+
+  <footer class="bg-dark text-center d-flex flex-row">
+
+      <!--<section>
+        <a href="https://www.facebook.com/?locale=pt_BR">
+          <img src="imagem/facebook-logo-removebg-preview.png" height="60px" width="120px" padding-top="50px" alt="">
+        </a>
+        <p>technologyprofissional</p>
+      </section>
+
+      <section>
+        <a href="https://www.instagram.com/">
+          <img src="imagem/instagram.png" height="40px" width="40px" alt="">
+        </a>
+        <p>@technologyprofissional</p>
+      </section>-->
+
+  </footer>
+
+
+</body>
+
+</html>

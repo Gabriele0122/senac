@@ -1,0 +1,83 @@
+.navbar-brand img{
+    width: 100px;
+}
+
+.carousel-item{
+    height: 760px;
+    background: linear-gradient(transparent, rgb(46, 45, 45));
+}
+
+.card img{
+    height: 300px;
+   
+}
+
+.sobre{
+    margin-bottom: 200px;
+}
+
+.sobre h1{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.sobre p{
+    font-family: "roboto mono";
+    word-wrap: break-word;
+    width: 1100px;
+    height: 500px;
+}
+
+.sobre img{
+    height: 100%;
+    width: 90%;
+    margin-top: 60px;
+   
+}
+
+.profissionais{
+    margin-top: 100px;
+}
+
+.profissionais img{
+    height: 600px;
+    width: 1000px;
+   
+}
+
+.profissionais p{
+    word-wrap: break-word;
+    width: 150px;
+    font-family: "roboto mono";
+}
+
+.tudo{
+    color: black
+}
+
+.Contato{
+    margin-top: 100px;
+}
+
+.Contato p{
+    width: 400px;
+    font-family: "roboto mono";
+    
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+}
+
+
+footer p{
+    color: gray;
+    font-size: 15px;
+    
+}
+
+
+
+
